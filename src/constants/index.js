@@ -3,74 +3,54 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Spring, Springboot, MySQL, Oracle, Docker, AWS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Spring, Springboot, Oracle, MySQL, Docker, AWS. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "June 2022 - Present",
+    role: "Java Developer",
+    company: "SBI General Insurance Limited",
+    description: `Developed Java-based applications utilizing Spring and Spring Boot frameworks, prioritizing performance and scalability for the KYC (Know Your Customer) project.Designed and implemented RESTful APIs (i.e Status API’s for OEM, Multiple Fetch Data API’s) to facilitate seamless integration between software components.Successfully deployed projects, overseeing the transition from development to production environments  Documented software architecture, SOPs (Standard Operating Procedures) and API documentation to facilitate knowledge sharing and faster collaboration among team members.`,
+    technologies: ["Spring", "SpringBoot", "ReactJs", "Oracle", "AWS" ,"SVN"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Customer Notify Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Implemented KYC notifications integrated with Bitly links for streamlined customer verification processes, enhancing efficiency and user experience. Designed a seamless routing mechanism within the application, directing customers to the KYC page for convenient submission of required data and official verification documents (OVDs), ensuring compliance and data accuracy, resulting in significant reductions in manual efforts by 95% ",
+    technologies: ["Spring", "Hibernate", "JMS Queue", "Oracle", "Junit" ,"SVN" ,"Linux"],
   },
   {
-    title: "Task Management App",
+    title: "Pipelink Data Integration",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Engineered a robust system capable of parsing pipeline-separated Text files and extracting crucial information with precision. implemented a streamlined process for storing essential data in a centralized database, ensuring accessibility and reliability.Coordinated dynamic data synchronization mechanisms, enabling real-time updates by effectively crossreferencing multiple databases aimed at optimizing data processing efficiency.",
+    technologies: ["SpringBoot", "SpringJPA", "Junit", "Oracle" ,"SVN", "Linux"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
+    title: "Workforce Administrator",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed and implemented Create, Read, Update, and Delete (CRUD) operations for efficient management of Employee/Worker records.Designed a visually appealing user interface (UI) tailored for streamlined data input and retrieval processes. ",
+    technologies: ["SpringBoot", "Spring JPA", "Thymeleaf", "Javascript", "Oracle" ,"Github"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "B/2, Aditya Darshan, ArunodayaNagar, Mulund-East, Mumbai-400081",
+  phoneNo: "+91 8104392174",
+  email: "rajsawant2722001@gmail.com",
 };
