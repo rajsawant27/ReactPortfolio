@@ -9,7 +9,7 @@ const container = (delay) => ({
 });
 
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap justify-center">
@@ -18,7 +18,7 @@ export const Hero = () => {
             <motion.h1 variants={container(0)}
             initial ="hidden"
             animate ="visible"
-           className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
+           className="pb-16 text-10xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
               Raj Sawant
             </motion.h1>
             <motion.span  variants={container(0.5)}
@@ -38,10 +38,12 @@ export const Hero = () => {
             initial ={{x:100 ,opacity :0}}
             animate ={{x: 0,opacity :1}}
             transition={{duration : 1 ,delay :1.2}}
-            className="rounded-2xl" src={profilePic} alt="Kevin Rush"/>
+            className="rounded-2xl" src={profilePic} alt="Raj Sawant"/>
             </div>
             </div>
       </div>
     </div>
   );
-}
+};
+
+export default Hero;
