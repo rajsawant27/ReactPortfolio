@@ -18,8 +18,8 @@ const Hero = () => {
             <motion.h1 variants={container(0)}
             initial ="hidden"
             animate ="visible"
-           className="pb-16 text-10xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
-              Raj Sawant
+           className="pb-16 text-10xl font-medium  bg-gradient-to-r from-violet-500 via-slate-500 to-purple-500 bg-clip-text tracking-tight lg:mt-16 lg:text-7xl">
+              Raj Dinesh Sawant
             </motion.h1>
             <motion.span  variants={container(0.5)}
             initial ="hidden"

@@ -47,6 +47,11 @@ const Navbar = () => {
             Experience
           </button>
           <button 
+            onClick={() => handleIconClick('https://codolio.com/profile/rajsawant2722001')}
+            className="px-6 py-3 bg-gradient-to-r from-violet-400 to-violet-600 text-black rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+            CP Profile
+          </button>
+          <button 
             onClick={() => window.open(RajSawantResume)}
             className="px-6 py-3 bg-gradient-to-r from-violet-400 to-violet-600 text-black rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
             View Resume
