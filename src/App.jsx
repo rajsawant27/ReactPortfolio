@@ -1,4 +1,5 @@
 import About from "./components/About";
+import ChatWidget from "./components/ChatWidget.jsx";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import  Hero  from "./components/Hero.jsx";
@@ -25,6 +26,7 @@ const App = () => {
         <Experience/>
         <Projects/>
         <Contact/>
+        <ChatWidget />
       </div>
     </div>
   );
